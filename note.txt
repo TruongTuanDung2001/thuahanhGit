@@ -14,3 +14,5 @@
 
 - git reset (lấy ra các file chuẩn bị được lưu, nó là ngược lại của git add .)
 
+- git commit -m "ghi chú file chuẩn bị lưu" (lệnh để lưu các file thay đổi, có ghi chú) (ghi chú đầu tiên thường là "initial commit :  ghi chú đầu tiên, thời điểm bắt đầu dự án")
+
