@@ -42,4 +42,14 @@
 
 - git branch -d + {branch name} (xóa 1 branch)
 
+* Cách để xuất hiện conflit: là tạo 1 branch tên là conflict, thì branch có file giống branch master, chúng ta vào 1 file vd: index.html, tạo 1 nội dung bất kỳ -> git add . , git commit ... lên.
+
+Sau đó chúng ta chuyển qua branch master (git checkout master), vào 1 file giống với cái trên vd: index.html và sửa nội dung khác với cùng dòng, rồi chúng ta git add . , git commit -m ... lên.
+
+Quan trọng, lúc này chúng ta đang ở branch master, chúng ta merge branch conflict vào bằng git merge conflict, thì lúc này máy sẽ hiện lỗi conflict và hiển thị 2 dòng với hai nội dung khác nhau.
+
+Chúng ta chỉ việc chọn 1 trong 2 dòng và xóa dòng còn lại hoặc để chọn cả hai dòng, sau đó chúng ta gõ git add . , git status để kiểm tra hoặc kh, sau đó chúng ta gõ "git commit" không có ghi chú hay "-m" nha, vì chúng ta đang giải quyết 1 conflit.
+
+Sau đó máy hiện ra kết quả đã giải quyết confict, chúng ta bấm "dấu 2 chấm : và chữ q để thoát ra" bất git log để kiểm tra lại các commit.
+
 
