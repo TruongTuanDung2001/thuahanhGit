@@ -1,0 +1,16 @@
+# Terms (danh từ)
+
+- Repository (Repo) : là 1 cái core, nhưng trên lập trình nó là 1 dự án thư mục
+
+# Command (câu lệnh)
+
+- git init (dự án sẽ sử dụng đc git nếu như đánh cái lệnh này)
+
+- git status (hiển thị trạng thái dự án của mình, tất cả các thay đổi)
+
+- git add (giúp chúng ta chuẩn bị lưu lại thời điểm hiện tại của dự án)
+    + 1 là git add + tên file thay đổi
+    + 2 là git add + "." là lấy tất cả các file thay đổi
+
+- git reset (lấy ra các file chuẩn bị được lưu, nó là ngược lại của git add .)
+
