@@ -28,7 +28,7 @@
 - git checkout + {branch name} (vd: git checkout master) (trở về dữ liệu file hiện tại đang làm)
 
 *BRANCH : CÀNH
-- git branch (hiển thị branch mặc định, hiện tại của chúng ta)
+- git branch (hiển thị branch mặc định, hiện tại của chúng ta, hiển thị có bao nhiêu branch và mình đang ở branch nào)
 
-- git checkout -b {branch name}
+- git checkout -b {branch name} (tạo 1 branch mới)
 
