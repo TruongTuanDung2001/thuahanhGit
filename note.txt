@@ -58,4 +58,13 @@ Sau đó máy hiện ra kết quả đã giải quyết confict, chúng ta bấm
 
 * Đẩy file local lên remote
 
-- git push
+- git push + link đường dẫn http + tên branch vd: 
+git pust https://github.com/TruongTuanDung2001/thuahanhGit.git master
+
+* Cách 2 : tạo ra 1 ây li ớch
+    + 1: git remote add + "tên gì cũng đc" + đường dẫn
+        vd: git remote add origin https://github.com/TruongTuanDung2001/thuahanhGit.git 
+
+    + 2: rồi giờ muốn đẩy file lên: git push + tên + branch 
+        vd: git push origin master
+
