@@ -2,6 +2,8 @@
 
 - Repository (Repo) : là 1 cái core, nhưng trên lập trình nó là 1 dự án thư mục
 
+- Branch : (cành) (cành mặc định lúc nào cũng là master)
+
 # Command (câu lệnh)
 
 - git init (dự án sẽ sử dụng đc git nếu như đánh cái lệnh này)
@@ -15,4 +17,18 @@
 - git reset (lấy ra các file chuẩn bị được lưu, nó là ngược lại của git add .)
 
 - git commit -m "ghi chú file chuẩn bị lưu" (lệnh để lưu các file thay đổi, có ghi chú) (ghi chú đầu tiên thường là "initial commit :  ghi chú đầu tiên, thời điểm bắt đầu dự án")
+
+- git log (xem các thời điểm chúng ta commit file lên)
+
+- git log --oneline (xem các thời điểm chúng ta commit file lên nhưng gọn gàng hơn)
+    + nó có hiện id commit trên mỗi commit của chúng ta (để làm cái lệnh bên dưới)
+
+- git checkout + {id commit} (vd: 7becbb8) (di chuyển dữ liệu file về lúc chưa commit file này lên)
+
+- git checkout + {branch name} (vd: git checkout master) (trở về dữ liệu file hiện tại đang làm)
+
+*BRANCH : CÀNH
+- git branch (hiển thị branch mặc định, hiện tại của chúng ta)
+
+- git checkout -b {branch name}
 
