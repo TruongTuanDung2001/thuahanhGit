@@ -32,3 +32,7 @@
 
 - git checkout -b {branch name} (tạo 1 branch mới)
 
+    * nếu mình tạo 1 file trên 1 branch bất kỳ thì các branch khác sẽ không có file đó, nên khi chuyển đổi qua lại nó sẽ không hiển thị ra.
+    
+- git checkout + {branch name đã có} (chuyển đổi qua lại giữa các branch)
+
