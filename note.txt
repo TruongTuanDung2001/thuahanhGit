@@ -2,7 +2,9 @@
 
 - Repository (Repo) : là 1 cái core, nhưng trên lập trình nó là 1 dự án thư mục
 
-- Branch : (cành) (cành mặc định lúc nào cũng là master)
+- Branch : (Cành) (cành mặc định lúc nào cũng là master)
+
+- Conflict : (Xung đột)
 
 # Command (câu lệnh)
 
