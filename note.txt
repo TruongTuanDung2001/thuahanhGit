@@ -36,3 +36,8 @@
     
 - git checkout + {branch name đã có} (chuyển đổi qua lại giữa các branch)
 
+- git merge + {branch name} (gộp 2 branch lại) (nếu chúng ta đang ở branch master, chúng ta muốn merge branch dev và master thì: git merge dev và ngược lại)
+
+- git branch -d + {branch name} (xóa 1 branch)
+
+
