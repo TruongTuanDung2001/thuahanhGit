@@ -3,3 +3,4 @@ var dog = function(name){
 }
 
 console.log("This is function dog");
+console.log("Hello");
