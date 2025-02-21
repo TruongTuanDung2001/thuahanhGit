@@ -2,4 +2,4 @@ var cat = function(name){
     return name;
 }
 
-console.log(cat);
+console.log("This is function cat");
