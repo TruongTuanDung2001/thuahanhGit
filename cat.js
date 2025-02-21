@@ -3,3 +3,4 @@ var cat = function(name){
 }
 
 console.log("This is function cat");
+console.log("Hello cat");
